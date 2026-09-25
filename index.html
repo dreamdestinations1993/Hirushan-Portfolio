@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hirushan Laksandaru Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="stars"></div>
+        <div class="sun-glow"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle day and night mode">
+        <span class="toggle-track">
+            <span class="toggle-icons">
+                <i class="fas fa-sun icon-sun"></i>
+                <i class="fas fa-moon icon-moon"></i>
+            </span>
+            <span class="toggle-knob"></span>
+        </span>
+    </button>
+
+    <!-- Sticky Navigation -->
+    <nav class="sticky-nav" id="stickyNav">
+        <img src="Profile.png" alt="HL Logo" class="nav-logo">
+        <ul>
+            <li><a href="#portfolio">Sample</a></li>
+            <li><a href="#pricing">Price</a></li>
+            <li><a href="#about">About me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="home">
+        <img src="Profile.png" alt="Hirushan Profile" class="profile-img">
+        <h1 class="welcome-text">
+            <span class="welcome-line1">Welcome to</span>
+            <span class="welcome-line2">HIRUSHAN LAKSANDARU PORTFOLIO</span>
+        </h1>
+        <p class="welcome-desc">Welcome to my work, your go-to destination for high-quality graphic design solutions. I'm dedicated to creating visually stunning, creative, and impactful designs that help your brand stand out, connect with your audience, and make a lasting impression.</p>
+        <div class="scroll-down" id="scrollDown">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2 class="section-title">Sample</h2>
+        <div class="portfolio-grid">
+
+            <!-- 1. Logo Design -->
+            <div class="portfolio-card">
+                <img src="A.jpg" alt="Logo Design" class="portfolio-img">
+                <div class="portfolio-content">
+                    <h3 class="portfolio-title">Logo Design</h3>
+                    <p class="portfolio-description">Professional logo designs that represent your brand identity. Unique and memorable logos tailored to your business needs.</p>
+                    <button class="portfolio-btn view-sample-btn" data-prefix="A" data-count="9" data-title="Logo Design"><span>View Sample</span></button>
+                </div>
+            </div>
+
+            <!-- 2. Mascot & E-Sport Logo Design -->
+            <div class="portfolio-card">
+                <img src="B.jpg" alt="Mascot & E-Sport Logo Design" class="portfolio-img">
+                <div class="portfolio-content">
+                    <h3 class="portfolio-title">Mascot & E-Sport Logo Design</h3>
+                    <p class="portfolio-description">Creative mascot and e-sport logos designed to give your brand a bold and powerful identity. Unique designs made to stand out.</p>
+                    <button class="portfolio-btn view-sample-btn" data-prefix="B" data-count="6" data-title="Mascot & E-Sport Logo Design"><span>View Sample</span></button>
+                </div>
+            </div>
+
+            <!-- 3. Social Media Post Design -->
+            <div class="portfolio-card">
+                <img src="C.jpg" alt="Social Media Post Design" class="portfolio-img">
+                <div class="portfolio-content">
+                    <h3 class="portfolio-title">Social Media Post Design</h3>
+                    <p class="portfolio-description">Eye-catching social media designs created to attract attention and strengthen your online presence. Engaging visuals tailored to your brand.</p>
+                    <button class="portfolio-btn view-sample-btn" data-prefix="C" data-count="7" data-title="Social Media Post Design"><span>View Sample</span></button>
+                </div>
+            </div>
+
+            <!-- 4. Cover Page Design -->
+            <div class="portfolio-card">
+                <img src="D.jpg" alt="Cover Page Design" class="portfolio-img">
+                <div class="portfolio-content">
+                    <h3 class="portfolio-title">Cover Page Design</h3>
+                    <p class="portfolio-description">Professional and visually appealing cover designs that create a strong first impression. Customized for your brand and platform.</p>
+                    <button class="portfolio-btn view-sample-btn" data-prefix="D" data-count="3" data-title="Cover Page Design"><span>View Sample</span></button>
+                </div>
+            </div>
+
+            <!-- 5. Flyer Design -->
+            <div class="portfolio-card">
+                <img src="E.jpg" alt="Flyer Design" class="portfolio-img">
+                <div class="portfolio-content">
+                    <h3 class="portfolio-title">Flyer Design</h3>
+                    <p class="portfolio-description">Creative and attractive flyer designs that effectively promote your products, services, or events. Designed to capture attention and deliver your message.</p>
+                    <button class="portfolio-btn view-sample-btn" data-prefix="E" data-count="3" data-title="Flyer Design"><span>View Sample</span></button>
+                </div>
+            </div>
+
+            <!-- 6. Letterhead Design -->
+            <div class="portfolio-card">
+                <img src="F.jpg" alt="Letterhead Design" class="portfolio-img">
+                <div class="portfolio-content">
+                    <h3 class="portfolio-title">Letterhead Design</h3>
+                    <p class="portfolio-description">Clean and professional letterhead designs that give your business communications a polished and trustworthy appearance.</p>
+                    <button class="portfolio-btn view-sample-btn" data-prefix="F" data-count="3" data-title="Letterhead Design"><span>View Sample</span></button>
+                </div>
+            </div>
+
+            <!-- 7. Business Card Design -->
+            <div class="portfolio-card">
+                <img src="G.jpg" alt="Business Card Design" class="portfolio-img">
+                <div class="portfolio-content">
+                    <h3 class="portfolio-title">Business Card Design</h3>
+                    <p class="portfolio-description">Professional and memorable business card designs that showcase your brand and contact information in a clean, stylish layout.</p>
+                    <button class="portfolio-btn view-sample-btn" data-prefix="G" data-count="3" data-title="Business Card Design"><span>View Sample</span></button>
+                </div>
+            </div>
+
+            <!-- 8. Event Post Design -->
+            <div class="portfolio-card">
+                <img src="H.jpg" alt="Event Post Design" class="portfolio-img">
+                <div class="portfolio-content">
+                    <h3 class="portfolio-title">Event Post Design</h3>
+                    <p class="portfolio-description">Eye-catching event promotional designs created to attract attention and communicate event details clearly. Customized for your event and brand.</p>
+                    <button class="portfolio-btn view-sample-btn" data-prefix="H" data-count="3" data-title="Event Post Design"><span>View Sample</span></button>
+                </div>
+            </div>
+
+            <!-- 9. Youtube Thumbnail Design -->
+            <div class="portfolio-card">
+                <img src="I.jpg" alt="Youtube Thumbnail Design" class="portfolio-img">
+                <div class="portfolio-content">
+                    <h3 class="portfolio-title">Youtube Thumbnail Design</h3>
+                    <p class="portfolio-description">Attention-grabbing YouTube thumbnails designed to increase clicks and make your videos stand out. Bold visuals tailored to your content.</p>
+                    <button class="portfolio-btn view-sample-btn" data-prefix="I" data-count="4" data-title="Youtube Thumbnail Design"><span>View Sample</span></button>
+                </div>
+            </div>
+
+            <!-- 10. Banner Design -->
+            <div class="portfolio-card">
+                <img src="J.jpg" alt="Banner Design" class="portfolio-img">
+                <div class="portfolio-content">
+                    <h3 class="portfolio-title">Banner Design</h3>
+                    <p class="portfolio-description">Professional and impactful banner designs created to promote your brand, products, or services. Customized for both digital and print use.</p>
+                    <button class="portfolio-btn view-sample-btn" data-prefix="J" data-count="4" data-title="Banner Design"><span>View Sample</span></button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sample Image Viewer Modal -->
+    <div class="sample-modal" id="sampleModal">
+        <div class="sample-modal-overlay" id="sampleModalOverlay"></div>
+        <div class="sample-modal-content">
+            <button class="sample-modal-close" id="sampleModalClose" aria-label="Close"><i class="fas fa-times"></i></button>
+            <h3 class="sample-modal-title" id="sampleModalTitle"></h3>
+            <div class="sample-modal-viewer">
+                <button class="sample-nav prev" id="samplePrev" aria-label="Previous sample"><i class="fas fa-chevron-left"></i></button>
+                <img src="" alt="" class="sample-modal-img" id="sampleModalImg">
+                <button class="sample-nav next" id="sampleNext" aria-label="Next sample"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="sample-modal-counter" id="sampleModalCounter"></div>
+        </div>
+    </div>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <h2 class="section-title">Price</h2>
+        <div class="pricing-container">
+
+            <!-- Logo Design Pricing -->
+            <div class="pricing-item">
+                <div class="pricing-header">
+                    <span>Logo Design</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="pricing-content">
+                    <div class="pricing-content-inner">
+                        <div class="price-option">
+                            <span>2 Color Basic Logo Design</span>
+                            <span>Rs.1200.00</span>
+                        </div>
+                        <div class="price-option">
+                            <span>4 Color Logo Design with Source File</span>
+                            <span>Rs.2000.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mascot And E-Sport Logo Design Pricing -->
+            <div class="pricing-item">
+                <div class="pricing-header">
+                    <span>Mascot And E-Sport Logo Design</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="pricing-content">
+                    <div class="pricing-content-inner">
+                        <div class="price-option">
+                            <span>Mascot Logo Design</span>
+                            <span>Rs.3500.00</span>
+                        </div>
+                        <div class="price-option">
+                            <span>E-Sport Logo Design</span>
+                            <span>Rs.3500.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Media Post Design Pricing -->
+            <div class="pricing-item">
+                <div class="pricing-header">
+                    <span>Social Media Post Design</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="pricing-content">
+                    <div class="pricing-content-inner">
+                        <div class="price-option">
+                            <span>Social Media Post Design</span>
+                            <span>Rs.800.00</span>
+                        </div>
+                        <div class="price-option">
+                            <span>With PSD File</span>
+                            <span>Rs.1200.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cover Page Design Pricing -->
+            <div class="pricing-item">
+                <div class="pricing-header">
+                    <span>Cover Page Design</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="pricing-content">
+                    <div class="pricing-content-inner">
+                        <div class="price-option">
+                            <span>2 Color Normal Design</span>
+                            <span>Rs.1000.00</span>
+                        </div>
+                        <div class="price-option">
+                            <span>4 Color Design</span>
+                            <span>Rs.1500.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flyer Design Pricing -->
+            <div class="pricing-item">
+                <div class="pricing-header">
+                    <span>Flyer Design</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="pricing-content">
+                    <div class="pricing-content-inner">
+                        <div class="price-option">
+                            <span>2 Color Normal Design</span>
+                            <span>Rs.1000.00</span>
+                        </div>
+                        <div class="price-option">
+                            <span>4 Color Design</span>
+                            <span>Rs.1500.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Letterhead Design Pricing -->
+            <div class="pricing-item">
+                <div class="pricing-header">
+                    <span>Letterhead Design</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="pricing-content">
+                    <div class="pricing-content-inner">
+                        <div class="price-option">
+                            <span>2 Color Normal Design</span>
+                            <span>Rs.800.00</span>
+                        </div>
+                        <div class="price-option">
+                            <span>4 Color Design</span>
+                            <span>Rs.1000.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Business Card Design Pricing -->
+            <div class="pricing-item">
+                <div class="pricing-header">
+                    <span>Business Card Design</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="pricing-content">
+                    <div class="pricing-content-inner">
+                        <div class="price-option">
+                            <span>2 Color Normal Design</span>
+                            <span>Rs.800.00</span>
+                        </div>
+                        <div class="price-option">
+                            <span>4 Color Design</span>
+                            <span>Rs.1000.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event Post Design Pricing -->
+            <div class="pricing-item">
+                <div class="pricing-header">
+                    <span>Event Post Design</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="pricing-content">
+                    <div class="pricing-content-inner">
+                        <div class="price-option">
+                            <span>Event Post Design</span>
+                            <span>Rs.1000.00</span>
+                        </div>
+                        <div class="price-option">
+                            <span>With PSD File</span>
+                            <span>Rs.1500.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Youtube Thumbnail Design Pricing -->
+            <div class="pricing-item">
+                <div class="pricing-header">
+                    <span>Youtube Thumbnail Design</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="pricing-content">
+                    <div class="pricing-content-inner">
+                        <div class="price-option">
+                            <span>Youtube Thumbnail Design</span>
+                            <span>Rs.800.00</span>
+                        </div>
+                        <div class="price-option">
+                            <span>With PSD File</span>
+                            <span>Rs.1200.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Banner Design Pricing -->
+            <div class="pricing-item">
+                <div class="pricing-header">
+                    <span>Banner Design</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="pricing-content">
+                    <div class="pricing-content-inner">
+                        <div class="price-option">
+                            <span>Banner Design</span>
+                            <span>Rs.1000.00</span>
+                        </div>
+                        <div class="price-option">
+                            <span>With AI, PSD File</span>
+                            <span>Rs.1500.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <img src="Profile.png" alt="Hirushan Laksandaru" class="about-img">
+            <div class="about-content">
+                <h3 class="about-title">Hirushan Laksandaru</h3>
+                <p class="about-subtitle">Graphic Designer</p>
+
+                <div class="info-section">
+                    <h4 class="info-title">PERSONAL INFORMATION</h4>
+                    <div class="info-item">Name - Hirushan Laksandaru Liyanage </div>
+                    <div class="info-item">Country - Sri Lanka </div>
+                    <div class="info-item">District - Kurunegala </div>
+                    <div class="info-item">Province - North Western </div>
+                    <div class="info-item">Language - Sinhala / English </div>
+                    <div class="info-item">Job - Graphic Design </div>
+                </div>
+
+                <div class="info-section">
+                    <h4 class="info-title">EXPERIENCE</h4>
+                    <div class="info-item">Hirushan Laksandaru<br>( Graphic Designer )</div>
+                    <div class="info-item">14 Year Experience </div>
+                </div>
+
+                <div class="info-section">
+                    <h4 class="info-title">PRO SKILLS</h4>
+                    <div class="skills-container">
+                        <div class="skill">Adobe Photoshop</div>
+                        <div class="skill">Adobe Illustrator</div>
+                        <div class="skill">CorelDraw</div>
+                        <div class="skill">Video Editing</div>
+                    </div>
+                </div>
+
+                <a href="www.example.com" target="_blank" class="cv-btn">View Full CV</a>
+
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fas fa-globe"></i></a>
+                </div>
+
+                <div class="footer">
+                    Design by : HIRUSHAN LAKSANDARU | © 2026 | Sri Lanka.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/94762201473" target="_blank" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
